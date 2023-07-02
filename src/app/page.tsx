@@ -1,12 +1,14 @@
 "use client";
 
-import { Button } from "@mui/material";
-import Image from "next/image";
+import { Box, Button } from "@mui/material";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <main>
       <Button variant="contained">Hello World</Button>
+      <Box className="bg-secondary h-100 w-50"></Box>
     </main>
   );
-}
+};
+
+export default HomePage;
